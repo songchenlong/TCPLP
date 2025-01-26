@@ -1,0 +1,15 @@
+CUDA_VISIBLE_DEVICES=2 python finetune.py \
+    --pretrain_ckpt ./TcplpForFinetune.bin \
+    --model_name_or_path /data/model/longformer-base-4096/ \
+    --data_path ./data/Instruments/ \
+    --train_file train.json \
+    --dev_file val.json \
+    --test_file test.json \
+    --meta_file meta_data.json \
+    --num_train_epochs 128 \
+    --batch_size 16 \
+    --device 0 \
+    --finetune_negative_sample_size -1 \
+    --learning_rate 5e-5 \
+    --fix_word_embedding \
+    --p_content 2 \
