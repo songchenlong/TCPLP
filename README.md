@@ -5,11 +5,13 @@ Semantic-enhanced Co-attention Prompt Learning for Non-overlapping Cross-Domain 
 https://drive.google.com/drive/folders/1hC4IVJgzYJzYaFRGqb3W0qH_vg-mjaZJ?usp=drive_link
 
 ## Requirements
+···
 Python 3.10.10
 PyTorch 2.0.0
 PyTorch Lightning 2.0.0
 Transformers 4.28.0
 Deepspeed 0.9.0
+···
 
 ## Usage
 1. Using `python save_longformer_ckpt.py` to adjust pretrained Longformer checkpoint to the model.
