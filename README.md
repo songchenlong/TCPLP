@@ -19,4 +19,5 @@ Deepspeed 0.9.0
 5. Using `bash prompt_tuing.sh` to perform the prompt-tuning stage.
 
 ## Acknowledgement
-https://github.com/AaronHeee/RecFormer
+The implementation is based on the [Recformer](https://github.com/AaronHeee/RecFormer
+).
